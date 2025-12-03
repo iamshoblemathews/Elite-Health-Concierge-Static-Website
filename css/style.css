@@ -696,15 +696,17 @@ img {
 
 @media (max-width: 768px) {
     .contact-inner {
-        padding: 40px 20px;
+        padding: 30px 15px;
     }
 
     .contact-inner h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        word-wrap: break-word;
     }
 
     .contact-inner p {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
+        word-wrap: break-word;
     }
 }
 
@@ -731,9 +733,12 @@ img {
 
 @media (max-width: 768px) {
     .contact-link {
-        font-size: 0.9rem;
-        word-break: break-word;
+        font-size: 0.75rem;
+        word-break: break-all;
         white-space: normal;
+        overflow-wrap: anywhere;
+        display: block;
+        margin: 10px 0;
     }
 }
 
