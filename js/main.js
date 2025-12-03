@@ -30,12 +30,7 @@ tl.to('.preloader-logo img', {
     duration: 2,
     ease: 'power2.out'
 })
-    .to('.preloader-text', {
-        opacity: 1,
-        y: 0,
-        duration: 1.5,
-        ease: 'power3.out'
-    }, '-=1.5')
+
     .to('.preloader-logo img', {
         scale: 1,
         duration: 1,
