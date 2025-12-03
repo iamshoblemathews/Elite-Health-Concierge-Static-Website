@@ -521,24 +521,23 @@ img {
 }
 
 .service-card.lunch-card {
-    background-image: url('/Users/shoblemathews/.gemini/antigravity/brain/a2cf237c-9fe0-4645-9d86-33b62acffa46/lunch_service_1764756673049.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background: url('../assets/lunch.svg') no-repeat center center/cover;
+    background-size: 50%;
+    /* SVGs might need different sizing */
+    background-color: var(--color-surface);
+    /* Add background color for contrast */
 }
 
 .service-card.beverages-card {
-    background-image: url('/Users/shoblemathews/.gemini/antigravity/brain/a2cf237c-9fe0-4645-9d86-33b62acffa46/beverages_service_1764756745286.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background: url('../assets/beverages.svg') no-repeat center center/cover;
+    background-size: 50%;
+    background-color: var(--color-surface);
 }
 
 .service-card.doctor-card {
-    background-image: url('/Users/shoblemathews/.gemini/antigravity/brain/a2cf237c-9fe0-4645-9d86-33b62acffa46/online_doctor_service_1764756855757.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background: url('../assets/doctor.svg') no-repeat center center/cover;
+    background-size: 50%;
+    background-color: var(--color-surface);
 }
 
 /* Common Overlay for all Image Cards */
