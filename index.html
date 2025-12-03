@@ -229,8 +229,13 @@
                     </ul>
                     <div class="inquiry-form-wrapper">
                         <h4 class="form-heading">Request Membership</h4>
-                        <form class="inquiry-form" action="mailto:elitehealthconcierge@gmail.com" method="POST"
-                            enctype="text/plain">
+                        <form class="inquiry-form" action="https://formsubmit.co/elitehealthconcierge@gmail.com"
+                            method="POST">
+                            <!-- FormSubmit.co Configuration -->
+                            <input type="hidden" name="_subject" value="New Membership Inquiry - Elite Health">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
+
                             <div class="form-row">
                                 <input type="text" name="name" placeholder="Full Name" class="form-input" required>
                                 <input type="number" name="age" placeholder="Age" class="form-input" required>
