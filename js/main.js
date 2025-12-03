@@ -161,26 +161,25 @@ const nav = document.querySelector('.nav');
 
 if (mobileToggle) {
     mobileToggle.addEventListener('click', () => {
-        nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+        nav.classList.toggle('active');
+        mobileToggle.classList.toggle('active');
 
-        if (nav.style.display === 'flex') {
-            nav.style.position = 'absolute';
-            nav.style.top = '100%';
-            nav.style.left = '0';
-            nav.style.width = '100%';
-            nav.style.background = '#0a0a0a';
-            nav.style.padding = '20px';
-            nav.style.flexDirection = 'column';
-            nav.style.alignItems = 'center';
-            nav.style.borderBottom = '1px solid rgba(212, 175, 55, 0.2)';
-
-            gsap.from('.nav-link', {
-                y: 20,
-                opacity: 0,
-                duration: 0.5,
-                stagger: 0.1
-            });
+        // Optional: Animate links when opening
+        if (nav.classList.contains('active')) {
+            gsap.fromTo('.nav-link',
+                { y: 20, opacity: 0 },
+                { y: 0, opacity: 1, duration: 0.5, stagger: 0.1, ease: 'power2.out', delay: 0.2 }
+            );
         }
+    });
+
+    // Close menu when clicking a link
+    const navLinks = document.querySelectorAll('.nav-link');
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            nav.classList.remove('active');
+            mobileToggle.classList.remove('active');
+        });
     });
 }
 
