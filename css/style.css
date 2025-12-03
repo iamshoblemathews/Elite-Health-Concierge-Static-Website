@@ -694,6 +694,20 @@ img {
     border: 1px solid var(--border-color);
 }
 
+@media (max-width: 768px) {
+    .contact-inner {
+        padding: 40px 20px;
+    }
+
+    .contact-inner h2 {
+        font-size: 2rem;
+    }
+
+    .contact-inner p {
+        font-size: 0.9rem;
+    }
+}
+
 .contact-inner h2 {
     font-size: 3rem;
     margin-bottom: 24px;
@@ -713,6 +727,14 @@ img {
     word-break: keep-all;
     white-space: nowrap;
     overflow-wrap: normal;
+}
+
+@media (max-width: 768px) {
+    .contact-link {
+        font-size: 0.9rem;
+        word-break: break-word;
+        white-space: normal;
+    }
 }
 
 /* Footer */
