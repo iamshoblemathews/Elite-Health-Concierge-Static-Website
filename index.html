@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Health Concierge | Business Class Healthcare</title>
+    <meta name="description"
+        content="Premium hospitality service in hospitals focusing on saving patients' time. Available in Kochi, Kerala.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- GSAP & Lenis -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+</head>
+
+<body>
+
+    <div class="preloader">
+        <div class="preloader-logo">
+            <img src="assets/logo.png" alt="Elite Health">
+        </div>
+        <div class="preloader-text">ELITE HEALTH</div>
+    </div>
+
+    <div class="cursor-follower"></div>
+
+    <header class="header">
+        <div class="container header-inner">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="Elite Health Concierge">
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#founders" class="nav-link">Founders</a></li>
+                    <li><a href="#packages" class="nav-link">Membership</a></li>
+                    <li><a href="#contact" class="nav-link btn-primary">Contact Us</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-toggle" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="reveal-text"
+                            style="display: block; font-size: 0.4em; letter-spacing: 0.2em; margin-bottom: 0.5em;">INTRODUCING</span>
+                        <span class="reveal-text">Business Class Service</span>
+                        <span class="reveal-text text-gold">In Healthcare Service</span>
+                    </h1>
+                    <p class="hero-subtitle reveal-text-delay">
+                        Saving your time, elevating your care. Experience the first premium hospital concierge service
+                        in Kochi.
+                    </p>
+                    <div class="hero-actions reveal-text-delay">
+                        <a href="#contact" class="btn btn-gold">Become a Member</a>
+                        <a href="#services" class="btn btn-outline">Explore Services</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-bg"></div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="about-content-wrapper">
+                    <div class="about-text">
+                        <div class="section-header text-left">
+                            <h2 class="section-title">Redefining Health Concierge Services</h2>
+                            <p class="section-desc" style="max-width: 100%;">Welcome to Elite Health Concierge – where
+                                healthcare meets First-Class hospitality.</p>
+                        </div>
+
+                        <div class="about-body">
+                            <p>We believe that seeking medical care, even the best treatment, should not be a stressful
+                                or time-consuming experience. For too long, even the most esteemed hospitals have
+                                struggled to provide an equally high standard of comfort and personalized attention. We
+                                are here to change that.</p>
+
+                            <h3 class="text-gold mt-4 mb-2">Introducing India's First Dedicated Business-Class
+                                Healthcare Experience.</h3>
+                            <p>Elite Health Concierge is pioneering a revolution in hospital hospitality. Our mission is
+                                simple: to transform the patient journey from a logistical headache into a seamless,
+                                priority experience. We eliminate the frustration of long queues, endless paperwork, and
+                                wasted time.</p>
+
+                            <h3 class="text-gold mt-4 mb-2">The Premium Difference</h3>
+                            <p class="mb-4">When you become our client through one of our exclusive packages, you are
+                                elevated to a VIP status. You will never have to wait in line for appointments,
+                                diagnostics, or consultations. We provide the personalized attention you deserve, making
+                                every visit feel like you are traveling Business Class—where your time is respected, and
+                                every detail is managed for you.</p>
+                        </div>
+
+                        <div class="about-grid">
+                            <div class="about-card">
+                                <h3>No Waiting</h3>
+                                <p>Priority access to doctors and hospital facilities.</p>
+                            </div>
+                            <div class="about-card">
+                                <h3>Dedicated Concierge</h3>
+                                <p>A personal assistant managing your entire hospital logistics.</p>
+                            </div>
+                            <div class="about-card">
+                                <h3>Supreme Comfort</h3>
+                                <p>Experience hospital visits with unparalleled ease and efficiency.</p>
+                            </div>
+                        </div>
+
+                        <div class="about-footer mt-5">
+                            <h3 class="text-gold mb-2">Our Journey Begins in Kerala</h3>
+                            <p>We are proud to launch our premium service first in Kochi, Kerala, with partnerships
+                                established across the city's top healthcare providers. However, our vision extends far
+                                beyond. Elite Health Concierge aims to scale this Business-Class experience across
+                                Kerala and major metropolitan cities throughout India, setting a new benchmark for
+                                patient care nationwide.</p>
+                            <p class="text-gold mt-3 font-italic">Choose Elite Health Concierge. Choose to reclaim your
+                                time and peace of mind.</p>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="assets/lounge.png" alt="Premium Hospital Lounge">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Premium Services</h2>
+                    <p class="section-desc">Experience a new standard of healthcare hospitality.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card zero-waiting-card">
+                        <h3>Zero Waiting Time</h3>
+                        <p>Direct access to care without the queues.</p>
+                    </div>
+                    <div class="service-card lounge-card">
+                        <h3>Private Lounge Access</h3>
+                        <p>Exclusive comfort while you wait or recover.</p>
+                    </div>
+                    <div class="service-card appointment-card">
+                        <h3>Appointment Management</h3>
+                        <p>We handle all booking and charges for you.</p>
+                    </div>
+                    <div class="service-card transport-card">
+                        <h3>Pick-up & Drop-off</h3>
+                        <p>Luxury transportation for your hospital visits.</p>
+                    </div>
+                    <div class="service-card medicine-card">
+                        <h3>Medicine Delivery</h3>
+                        <p>Prescriptions delivered directly to you.</p>
+                    </div>
+                    <div class="service-card nurse-card">
+                        <h3>Bystander Nurse</h3>
+                        <p>Professional support for patient bystanders.</p>
+                    </div>
+                    <div class="service-card lunch-card">
+                        <h3>Complimentary Lunch</h3>
+                        <p>Nutritious meals arranged during your visit.</p>
+                    </div>
+                    <div class="service-card beverages-card">
+                        <h3>Beverages</h3>
+                        <p>Premium refreshments available on demand.</p>
+                    </div>
+                    <div class="service-card doctor-card">
+                        <h3>Online Doctor</h3>
+                        <p>Virtual consultations from the comfort of home.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="founders" class="section founders">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Visionaries</h2>
+                </div>
+                <div class="founders-grid">
+                    <div class="founder-card">
+                        <h3>Shoble Mathews</h3>
+                        <p class="founder-role">Founder Elite Health</p>
+                        <a href="mailto:shoblemathews007@gmail.com" class="founder-email">shoblemathews007@gmail.com</a>
+                    </div>
+                    <div class="founder-card">
+                        <h3>Sidharth Anil</h3>
+                        <p class="founder-role">Co Founder Elite Health</p>
+                        <a href="mailto:sidharthanil0001@gmail.com" class="founder-email">sidharthanil0001@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="packages" class="section packages">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Membership</h2>
+                    <p class="section-desc">Exclusive annual packages tailored for your peace of mind.</p>
+                </div>
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>AMBASSADOR ELITE</h3>
+                        <div class="price">Inquire for Pricing</div>
+                    </div>
+                    <ul class="package-features">
+                        <li>Concierge Access</li>
+                        <li>Priority Appointments</li>
+                        <li>Complimentary Transport (Capped)</li>
+                        <li>Family Coverage Options</li>
+                    </ul>
+                    <div class="inquiry-form-wrapper">
+                        <h4 class="form-heading">Request Membership</h4>
+                        <form class="inquiry-form">
+                            <div class="form-row">
+                                <input type="text" placeholder="Full Name" class="form-input" required>
+                                <input type="number" placeholder="Age" class="form-input" required>
+                            </div>
+                            <div class="form-row">
+                                <input type="email" placeholder="Email Address" class="form-input" required>
+                                <input type="tel" placeholder="Phone Number" class="form-input" required>
+                            </div>
+                            <button type="submit" class="btn btn-gold btn-block">Submit Inquiry</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="contact-inner">
+                    <h2>Experience Elite Care</h2>
+                    <p>Contact us to learn more about our services in Kochi.</p>
+                    <div class="contact-details">
+                        <a href="mailto:elitehealthconcierge@gmail.com"
+                            class="contact-link">elitehealthconcierge@gmail.com</a>
+                        <a href="tel:+917306322779" class="contact-link">+91 7306 322 779</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Elite Health</div>
+                <p class="copyright">&copy; 2024 Elite Health Concierge. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

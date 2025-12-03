@@ -1,0 +1,10 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#121212"/>
+  <defs>
+    <pattern id="cross" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 20 30 L 40 30 M 30 20 L 30 40" stroke="#D4AF37" stroke-width="1" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#cross)" />
+  <path d="M 350 300 L 450 300 M 400 250 L 400 350" stroke="#D4AF37" stroke-width="4" opacity="0.2"/>
+</svg>
