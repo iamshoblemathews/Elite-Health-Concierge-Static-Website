@@ -229,14 +229,16 @@
                     </ul>
                     <div class="inquiry-form-wrapper">
                         <h4 class="form-heading">Request Membership</h4>
-                        <form class="inquiry-form">
+                        <form class="inquiry-form" action="mailto:elitehealthconcierge@gmail.com" method="POST"
+                            enctype="text/plain">
                             <div class="form-row">
-                                <input type="text" placeholder="Full Name" class="form-input" required>
-                                <input type="number" placeholder="Age" class="form-input" required>
+                                <input type="text" name="name" placeholder="Full Name" class="form-input" required>
+                                <input type="number" name="age" placeholder="Age" class="form-input" required>
                             </div>
                             <div class="form-row">
-                                <input type="email" placeholder="Email Address" class="form-input" required>
-                                <input type="tel" placeholder="Phone Number" class="form-input" required>
+                                <input type="email" name="email" placeholder="Email Address" class="form-input"
+                                    required>
+                                <input type="tel" name="phone" placeholder="Phone Number" class="form-input" required>
                             </div>
                             <button type="submit" class="btn btn-gold btn-block">Submit Inquiry</button>
                         </form>
