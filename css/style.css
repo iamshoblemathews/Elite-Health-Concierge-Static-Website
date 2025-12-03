@@ -692,21 +692,25 @@ img {
     padding: 80px;
     background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), transparent);
     border: 1px solid var(--border-color);
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
     .contact-inner {
-        padding: 30px 15px;
+        padding: 25px 12px;
     }
 
     .contact-inner h2 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         word-wrap: break-word;
+        margin-bottom: 16px;
     }
 
     .contact-inner p {
-        font-size: 0.85rem;
+        font-size: 0.8rem;
         word-wrap: break-word;
+        margin-bottom: 20px;
     }
 }
 
@@ -733,12 +737,13 @@ img {
 
 @media (max-width: 768px) {
     .contact-link {
-        font-size: 0.75rem;
+        font-size: 0.7rem;
         word-break: break-all;
         white-space: normal;
         overflow-wrap: anywhere;
         display: block;
-        margin: 10px 0;
+        margin: 8px 0;
+        max-width: 100%;
     }
 }
 
