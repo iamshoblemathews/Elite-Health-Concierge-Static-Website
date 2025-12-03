@@ -768,6 +768,12 @@ img {
     font-family: var(--font-heading);
 }
 
+.footer-brand-logo {
+    height: 60px;
+    width: auto;
+    margin-bottom: 16px;
+}
+
 .footer-logo {
     font-family: var(--font-heading);
     font-size: 1.8rem;
@@ -787,6 +793,18 @@ img {
     font-size: 0.9rem;
     line-height: 1.6;
     max-width: 350px;
+    margin-bottom: 16px;
+}
+
+.footer-company {
+    color: var(--color-text-muted);
+    font-size: 0.85rem;
+    margin-top: 12px;
+}
+
+.footer-company strong {
+    color: var(--color-text);
+    font-weight: 600;
 }
 
 .footer-links {
