@@ -712,8 +712,8 @@ img {
     font-size: 1.2rem;
     border-bottom: 1px solid var(--color-gold);
     padding-bottom: 4px;
-    word-break: break-word;
-    overflow-wrap: break-word;
+    word-break: break-all;
+    overflow-wrap: anywhere;
 }
 
 /* Footer */
@@ -904,9 +904,8 @@ img {
     font-size: 0.9rem;
     text-decoration: none;
     transition: color 0.3s ease;
-    word-break: break-word;
-    /* Ensure long emails break on mobile */
-    overflow-wrap: break-word;
+    word-break: break-all;
+    overflow-wrap: anywhere;
 }
 
 .founder-email:hover {
