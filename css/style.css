@@ -521,23 +521,15 @@ img {
 }
 
 .service-card.lunch-card {
-    background: url('../assets/lunch.svg') no-repeat center center/cover;
-    background-size: 50%;
-    /* SVGs might need different sizing */
-    background-color: var(--color-surface);
-    /* Add background color for contrast */
+    background: url('../assets/lunch.png') no-repeat center center/cover;
 }
 
 .service-card.beverages-card {
-    background: url('../assets/beverages.svg') no-repeat center center/cover;
-    background-size: 50%;
-    background-color: var(--color-surface);
+    background: url('../assets/beverages.png') no-repeat center center/cover;
 }
 
 .service-card.doctor-card {
-    background: url('../assets/doctor.svg') no-repeat center center/cover;
-    background-size: 50%;
-    background-color: var(--color-surface);
+    background: url('../assets/doctor.png') no-repeat center center/cover;
 }
 
 /* Common Overlay for all Image Cards */
