@@ -715,16 +715,38 @@ img {
 .contact-details {
     margin-top: 40px;
     display: flex;
+    margin-top: 40px;
+    display: flex;
     justify-content: center;
     gap: 40px;
 }
 
 .contact-link {
     font-size: 1.2rem;
+    border-bottom: 1px solid var(--color-gold);
     padding-bottom: 4px;
-    word-break: keep-all;
-    white-space: nowrap;
-    overflow-wrap: normal;
+}
+
+/* Footer */
+.footer {
+    padding: 60px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    text-align: center;
+}
+
+.footer-logo {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    color: var(--color-gold);
+    margin-bottom: 20px;
+}
+
+.footer-address {
+    color: var(--color-text-muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    opacity: 0.8;
 }
 
 @media (max-width: 768px) {
@@ -758,6 +780,13 @@ img {
     font-size: 1.1rem;
     margin-bottom: 20px;
     font-family: var(--font-heading);
+}
+
+.footer-section {
+    overflow: visible !important;
+    max-height: none !important;
+    height: auto !important;
+    display: block !important;
 }
 
 .footer-brand-logo {
@@ -797,6 +826,41 @@ img {
 .footer-company strong {
     color: var(--color-text);
     font-weight: 600;
+}
+
+.footer-address {
+    color: #ffffff !important;
+    font-size: 1rem !important;
+    line-height: 1.8;
+    margin-top: 16px;
+    font-weight: 500;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    background: rgba(212, 175, 55, 0.1);
+    padding: 12px;
+    border-left: 3px solid var(--color-gold);
+}
+
+.footer-email {
+    color: #ffffff !important;
+    font-size: 1rem !important;
+    margin-top: 12px;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    background: rgba(212, 175, 55, 0.1);
+    padding: 12px;
+    border-left: 3px solid var(--color-gold);
+}
+
+.footer-email a {
+    color: var(--color-gold);
+    transition: color 0.3s ease;
+}
+
+.footer-email a:hover {
+    color: var(--color-gold-light);
 }
 
 .footer-links {
